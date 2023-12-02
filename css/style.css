@@ -1,0 +1,80 @@
+/* z-index css code start */
+
+body{
+  background: black;
+  padding-top: 150px;
+
+}
+
+.z-index{
+    width: 515px;
+    height: 295px;
+    background: #FFFFFF;
+    padding-top:10px;
+    padding-left:10px;
+    margin: auto;
+
+}
+
+
+.parent{
+    background: #FFFFFF;
+    position: relative;
+    width: 503px;
+    height: 283px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+.child1{
+    position: absolute;
+    background: #FF2F6D;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    z-index: 2;
+    bottom: 33px;
+    border-radius: 6px;
+
+}
+.child2{
+    position: absolute;
+    background: #00E526;
+    width: 150px;
+    height: 150px;
+    bottom: 99px;
+    z-index: 1;
+    left:20px;
+    border-radius: 6px;
+}
+
+/* z-index css code end */
+
+/* flag section css code start */
+
+.flag-section{
+margin-top: 25px;
+
+
+}
+
+.flag-section .f-parent{
+    background:green;
+    position: absolute;
+    width: 500px;
+    height: 300px; 
+
+
+
+}
+
+.flag-section .child{
+    position: absolute;
+    background:red;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+/* flag section css code end */
